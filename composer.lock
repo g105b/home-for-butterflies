@@ -8,24 +8,24 @@
     "packages": [
         {
             "name": "composer/semver",
-            "version": "3.4.0",
+            "version": "3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32"
+                "reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/35e8d0af4486141bc745f23a29cc2091eb624a32",
-                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32",
+                "url": "https://api.github.com/repos/composer/semver/zipball/4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
+                "reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^1.4",
-                "symfony/phpunit-bridge": "^4.2 || ^5"
+                "phpstan/phpstan": "^1.11",
+                "symfony/phpunit-bridge": "^3 || ^7"
             },
             "type": "library",
             "extra": {
@@ -69,7 +69,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.4.0"
+                "source": "https://github.com/composer/semver/tree/3.4.3"
             },
             "funding": [
                 {
@@ -85,20 +85,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-31T09:50:34+00:00"
+            "time": "2024-09-19T14:15:21+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549"
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/f41715465d65213d644d3141a6a93081be5d3549",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549",
+                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/a23a2bf4f31d3518f3ecb38660c95715dfead60f",
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f",
                 "shasum": ""
             },
             "require": {
@@ -158,9 +158,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
-                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
+                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
-            "time": "2022-10-27T11:44:00+00:00"
+            "time": "2024-07-08T12:26:09+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -228,16 +228,16 @@
         },
         {
             "name": "greenlion/php-sql-parser",
-            "version": "v4.6.0",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/greenlion/PHP-SQL-Parser.git",
-                "reference": "f0e4645eb1612f0a295e3d35bda4c7740ae8c366"
+                "reference": "0cd49149efc5868db9c32d1a09558ea516892586"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/greenlion/PHP-SQL-Parser/zipball/f0e4645eb1612f0a295e3d35bda4c7740ae8c366",
-                "reference": "f0e4645eb1612f0a295e3d35bda4c7740ae8c366",
+                "url": "https://api.github.com/repos/greenlion/PHP-SQL-Parser/zipball/0cd49149efc5868db9c32d1a09558ea516892586",
+                "reference": "0cd49149efc5868db9c32d1a09558ea516892586",
                 "shasum": ""
             },
             "require": {
@@ -246,7 +246,7 @@
             "require-dev": {
                 "analog/analog": "^1.0.6",
                 "phpunit/phpunit": "^9.5.13",
-                "squizlabs/php_codesniffer": "^1.5.1"
+                "squizlabs/php_codesniffer": "^2.8.1"
             },
             "type": "library",
             "autoload": {
@@ -284,20 +284,20 @@
                 "issues": "https://github.com/greenlion/PHP-SQL-Parser/issues",
                 "source": "https://github.com/greenlion/PHP-SQL-Parser"
             },
-            "time": "2023-03-09T20:54:23+00:00"
+            "time": "2024-12-02T12:14:07+00:00"
         },
         {
             "name": "league/commonmark",
-            "version": "2.4.2",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "91c24291965bd6d7c46c46a12ba7492f83b1cadf"
+                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/91c24291965bd6d7c46c46a12ba7492f83b1cadf",
-                "reference": "91c24291965bd6d7c46c46a12ba7492f83b1cadf",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d990688c91cedfb69753ffc2512727ec646df2ad",
+                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad",
                 "shasum": ""
             },
             "require": {
@@ -310,8 +310,8 @@
             },
             "require-dev": {
                 "cebe/markdown": "^1.0",
-                "commonmark/cmark": "0.30.3",
-                "commonmark/commonmark.js": "0.30.0",
+                "commonmark/cmark": "0.31.1",
+                "commonmark/commonmark.js": "0.31.1",
                 "composer/package-versions-deprecated": "^1.8",
                 "embed/embed": "^4.4",
                 "erusev/parsedown": "^1.0",
@@ -322,8 +322,9 @@
                 "phpstan/phpstan": "^1.8.2",
                 "phpunit/phpunit": "^9.5.21 || ^10.5.9 || ^11.0.0",
                 "scrutinizer/ocular": "^1.8.1",
-                "symfony/finder": "^5.3 | ^6.0 || ^7.0",
-                "symfony/yaml": "^2.3 | ^3.0 | ^4.0 | ^5.0 | ^6.0 || ^7.0",
+                "symfony/finder": "^5.3 | ^6.0 | ^7.0",
+                "symfony/process": "^5.4 | ^6.0 | ^7.0",
+                "symfony/yaml": "^2.3 | ^3.0 | ^4.0 | ^5.0 | ^6.0 | ^7.0",
                 "unleashedtech/php-coding-standard": "^3.1.1",
                 "vimeo/psalm": "^4.24.0 || ^5.0.0"
             },
@@ -333,7 +334,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.5-dev"
+                    "dev-main": "2.7-dev"
                 }
             },
             "autoload": {
@@ -390,7 +391,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-02T11:59:32+00:00"
+            "time": "2024-12-29T14:10:59+00:00"
         },
         {
             "name": "league/config",
@@ -527,24 +528,24 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.3.0",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188"
+                "reference": "da801d52f0354f70a638673c4a0f04e16529431d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
-                "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
+                "url": "https://api.github.com/repos/nette/schema/zipball/da801d52f0354f70a638673c4a0f04e16529431d",
+                "reference": "da801d52f0354f70a638673c4a0f04e16529431d",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
-                "php": "8.1 - 8.3"
+                "php": "8.1 - 8.4"
             },
             "require-dev": {
-                "nette/tester": "^2.4",
+                "nette/tester": "^2.5.2",
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -583,26 +584,26 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.3.0"
+                "source": "https://github.com/nette/schema/tree/v1.3.2"
             },
-            "time": "2023-12-11T11:54:22+00:00"
+            "time": "2024-10-06T23:10:23+00:00"
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218"
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
+                "url": "https://api.github.com/repos/nette/utils/zipball/736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0 <8.4"
+                "php": "8.0 - 8.4"
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -669,32 +670,34 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.4"
+                "source": "https://github.com/nette/utils/tree/v4.0.5"
             },
-            "time": "2024-01-17T16:50:36+00:00"
+            "time": "2024-08-07T15:39:19+00:00"
         },
         {
             "name": "phpgt/async",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PhpGt/Async.git",
-                "reference": "3d2bdeca8cafc8573b416da3ac591d5d88f6dea9"
+                "url": "https://github.com/phpgt/Async.git",
+                "reference": "3daab887eacd04d297a1383a22957f0ab7ecaf68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Async/zipball/3d2bdeca8cafc8573b416da3ac591d5d88f6dea9",
-                "reference": "3d2bdeca8cafc8573b416da3ac591d5d88f6dea9",
+                "url": "https://api.github.com/repos/phpgt/Async/zipball/3daab887eacd04d297a1383a22957f0ab7ecaf68",
+                "reference": "3daab887eacd04d297a1383a22957f0ab7ecaf68",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "php": ">=7.4",
+                "php": ">=8.1",
                 "phpgt/promise": "^2.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^v1.8",
-                "phpunit/phpunit": "^v9.5"
+                "phpmd/phpmd": "^2.13",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^10.1",
+                "squizlabs/php_codesniffer": "^3.7"
             },
             "type": "library",
             "autoload": {
@@ -708,8 +711,8 @@
             ],
             "description": "Promise-based non-blocking operations.",
             "support": {
-                "issues": "https://github.com/PhpGt/Async/issues",
-                "source": "https://github.com/PhpGt/Async/tree/v1.0.0"
+                "issues": "https://github.com/phpgt/Async/issues",
+                "source": "https://github.com/phpgt/Async/tree/v1.0.1"
             },
             "funding": [
                 {
@@ -717,7 +720,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-01-19T11:11:58+00:00"
+            "time": "2025-03-07T17:26:32+00:00"
         },
         {
             "name": "phpgt/build",
@@ -775,27 +778,29 @@
         },
         {
             "name": "phpgt/cli",
-            "version": "v1.3.4",
+            "version": "v1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/Cli.git",
-                "reference": "71deb9cdc5a3ea8bfb665faa29739badbf61e9da"
+                "reference": "42aeef24ab9789907358002fdcc37cb3a2e26b4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Cli/zipball/71deb9cdc5a3ea8bfb665faa29739badbf61e9da",
-                "reference": "71deb9cdc5a3ea8bfb665faa29739badbf61e9da",
+                "url": "https://api.github.com/repos/PhpGt/Cli/zipball/42aeef24ab9789907358002fdcc37cb3a2e26b4b",
+                "reference": "42aeef24ab9789907358002fdcc37cb3a2e26b4b",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-readline": "*",
-                "php": ">=8.0",
-                "phpgt/daemon": "^v1.1"
+                "php": ">=8.2",
+                "phpgt/daemon": "^1.1.3"
             },
             "require-dev": {
-                "phpstan/phpstan": "^v1.8",
-                "phpunit/phpunit": "^v9.5"
+                "phpmd/phpmd": "^2.13",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^10.5",
+                "squizlabs/php_codesniffer": "^3.7"
             },
             "type": "library",
             "autoload": {
@@ -822,7 +827,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PhpGt/Cli/issues",
-                "source": "https://github.com/PhpGt/Cli/tree/v1.3.4"
+                "source": "https://github.com/PhpGt/Cli/tree/v1.3.5"
             },
             "funding": [
                 {
@@ -830,7 +835,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-18T10:06:17+00:00"
+            "time": "2024-05-08T17:45:44+00:00"
         },
         {
             "name": "phpgt/config",
@@ -889,26 +894,28 @@
         },
         {
             "name": "phpgt/cron",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PhpGt/Cron.git",
-                "reference": "b6b1e8d762d6149e0d7bcb81f8e4cc3bf1dcfa6c"
+                "url": "https://github.com/phpgt/Cron.git",
+                "reference": "12e2e741d623cf05422f6afa55865b2b15543999"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Cron/zipball/b6b1e8d762d6149e0d7bcb81f8e4cc3bf1dcfa6c",
-                "reference": "b6b1e8d762d6149e0d7bcb81f8e4cc3bf1dcfa6c",
+                "url": "https://api.github.com/repos/phpgt/Cron/zipball/12e2e741d623cf05422f6afa55865b2b15543999",
+                "reference": "12e2e741d623cf05422f6afa55865b2b15543999",
                 "shasum": ""
             },
             "require": {
                 "dragonmantank/cron-expression": "^2.2",
-                "php": ">=7.4",
+                "php": ">=8.1",
                 "phpgt/cli": "1.*"
             },
             "require-dev": {
-                "phpstan/phpstan": ">=0.12.64",
-                "phpunit/phpunit": "9.*"
+                "phpmd/phpmd": "^2.13",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^10.1",
+                "squizlabs/php_codesniffer": "^3.7"
             },
             "bin": [
                 "bin/cron"
@@ -922,8 +929,8 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "Run scripts or static functions at regular intervals.",
             "support": {
-                "issues": "https://github.com/PhpGt/Cron/issues",
-                "source": "https://github.com/PhpGt/Cron/tree/v1.0.3"
+                "issues": "https://github.com/phpgt/Cron/issues",
+                "source": "https://github.com/phpgt/Cron/tree/v1.0.4"
             },
             "funding": [
                 {
@@ -931,7 +938,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-23T10:47:38+00:00"
+            "time": "2025-03-07T18:07:32+00:00"
         },
         {
             "name": "phpgt/csrf",
@@ -993,16 +1000,16 @@
         },
         {
             "name": "phpgt/cssxpath",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/CssXPath.git",
-                "reference": "c0a06671fed8db601bb680dc4d5accf3cd9deb81"
+                "reference": "45f3ac151fc21d459e2515c3aff97cd4bf877bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/CssXPath/zipball/c0a06671fed8db601bb680dc4d5accf3cd9deb81",
-                "reference": "c0a06671fed8db601bb680dc4d5accf3cd9deb81",
+                "url": "https://api.github.com/repos/PhpGt/CssXPath/zipball/45f3ac151fc21d459e2515c3aff97cd4bf877bf8",
+                "reference": "45f3ac151fc21d459e2515c3aff97cd4bf877bf8",
                 "shasum": ""
             },
             "require": {
@@ -1035,7 +1042,7 @@
             "description": "Convert CSS selectors to XPath queries.",
             "support": {
                 "issues": "https://github.com/PhpGt/CssXPath/issues",
-                "source": "https://github.com/PhpGt/CssXPath/tree/v1.2.0"
+                "source": "https://github.com/PhpGt/CssXPath/tree/v1.3.0"
             },
             "funding": [
                 {
@@ -1043,7 +1050,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-03T18:33:56+00:00"
+            "time": "2024-07-10T13:36:01+00:00"
         },
         {
             "name": "phpgt/curl",
@@ -1108,24 +1115,27 @@
         },
         {
             "name": "phpgt/daemon",
-            "version": "v1.1.2",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/Daemon.git",
-                "reference": "6490df99a22818149f30e3af408002ea7f73e035"
+                "reference": "4609225cf82a1f13a5f7364870a2b5f52c6a2529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Daemon/zipball/6490df99a22818149f30e3af408002ea7f73e035",
-                "reference": "6490df99a22818149f30e3af408002ea7f73e035",
+                "url": "https://api.github.com/repos/PhpGt/Daemon/zipball/4609225cf82a1f13a5f7364870a2b5f52c6a2529",
+                "reference": "4609225cf82a1f13a5f7364870a2b5f52c6a2529",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4"
+                "ext-pcntl": "*",
+                "php": ">=8.1"
             },
             "require-dev": {
-                "phpstan/phpstan": ">=0.12.42",
-                "phpunit/phpunit": "9.*"
+                "phpmd/phpmd": "^2.13",
+                "phpstan/phpstan": "^v1.10",
+                "phpunit/phpunit": "^10.5",
+                "squizlabs/php_codesniffer": "^3.7"
             },
             "type": "library",
             "autoload": {
@@ -1137,15 +1147,15 @@
             "description": "Background script execution with cross-platform compatible streaming.",
             "support": {
                 "issues": "https://github.com/PhpGt/Daemon/issues",
-                "source": "https://github.com/PhpGt/Daemon/tree/v1.1.2"
+                "source": "https://github.com/PhpGt/Daemon/tree/v1.1.4"
             },
             "funding": [
                 {
-                    "url": "https://github.com/phpgt",
+                    "url": "https://github.com/sponsors/PhpGt",
                     "type": "github"
                 }
             ],
-            "time": "2021-02-02T17:33:16+00:00"
+            "time": "2024-05-16T08:42:54+00:00"
         },
         {
             "name": "phpgt/database",
@@ -1217,21 +1227,21 @@
         },
         {
             "name": "phpgt/dataobject",
-            "version": "v1.0.7",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/DataObject.git",
-                "reference": "3b05cc3b64a0f2b763c8e550bc6c03b71474cd1a"
+                "reference": "534b593617e40f62ba5ea5a399797e4b0107a40a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/DataObject/zipball/3b05cc3b64a0f2b763c8e550bc6c03b71474cd1a",
-                "reference": "3b05cc3b64a0f2b763c8e550bc6c03b71474cd1a",
+                "url": "https://api.github.com/repos/PhpGt/DataObject/zipball/534b593617e40f62ba5ea5a399797e4b0107a40a",
+                "reference": "534b593617e40f62ba5ea5a399797e4b0107a40a",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=8.0",
+                "php": ">=8.1",
                 "phpgt/typesafegetter": "^1.3"
             },
             "require-dev": {
@@ -1259,7 +1269,7 @@
             "description": " Structured, type-safe, immutable data transfer.",
             "support": {
                 "issues": "https://github.com/PhpGt/DataObject/issues",
-                "source": "https://github.com/PhpGt/DataObject/tree/v1.0.7"
+                "source": "https://github.com/PhpGt/DataObject/tree/v1.1.0"
             },
             "funding": [
                 {
@@ -1267,20 +1277,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-13T09:45:07+00:00"
+            "time": "2025-02-14T16:43:15+00:00"
         },
         {
             "name": "phpgt/dom",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/Dom.git",
-                "reference": "b3fe4a5054ef0780d663389475972c7b09b70a48"
+                "reference": "2de9031c477e1eabe9e26c3412610a45c9b6b14d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Dom/zipball/b3fe4a5054ef0780d663389475972c7b09b70a48",
-                "reference": "b3fe4a5054ef0780d663389475972c7b09b70a48",
+                "url": "https://api.github.com/repos/PhpGt/Dom/zipball/2de9031c477e1eabe9e26c3412610a45c9b6b14d",
+                "reference": "2de9031c477e1eabe9e26c3412610a45c9b6b14d",
                 "shasum": ""
             },
             "require": {
@@ -1359,7 +1369,7 @@
             "description": "Modern DOM API.",
             "support": {
                 "issues": "https://github.com/PhpGt/Dom/issues",
-                "source": "https://github.com/PhpGt/Dom/tree/v4.1.6"
+                "source": "https://github.com/PhpGt/Dom/tree/v4.1.7"
             },
             "funding": [
                 {
@@ -1367,20 +1377,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-31T11:26:08+00:00"
+            "time": "2025-01-02T23:56:16+00:00"
         },
         {
             "name": "phpgt/domtemplate",
-            "version": "v3.4.0",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/DomTemplate.git",
-                "reference": "ebe9545c97fd9b10f63b250f2186aedad03df514"
+                "reference": "b469f1813bbd039bfb5ba0d2a65b9a4f0eeff224"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/DomTemplate/zipball/ebe9545c97fd9b10f63b250f2186aedad03df514",
-                "reference": "ebe9545c97fd9b10f63b250f2186aedad03df514",
+                "url": "https://api.github.com/repos/PhpGt/DomTemplate/zipball/b469f1813bbd039bfb5ba0d2a65b9a4f0eeff224",
+                "reference": "b469f1813bbd039bfb5ba0d2a65b9a4f0eeff224",
                 "shasum": ""
             },
             "require": {
@@ -1405,7 +1415,7 @@
             "description": "Bind dynamic data to reusable HTML components.",
             "support": {
                 "issues": "https://github.com/PhpGt/DomTemplate/issues",
-                "source": "https://github.com/PhpGt/DomTemplate/tree/v3.4.0"
+                "source": "https://github.com/PhpGt/DomTemplate/tree/v3.4.2"
             },
             "funding": [
                 {
@@ -1413,33 +1423,34 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-04T22:31:51+00:00"
+            "time": "2024-11-25T09:59:24+00:00"
         },
         {
             "name": "phpgt/gtcommand",
-            "version": "v1.0.1",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/GtCommand.git",
-                "reference": "f960844b8ca2bb80b5c42b0cc3c3a63547931db2"
+                "reference": "5f08e08408d6885dab4da380c2e1dcaeea670251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/GtCommand/zipball/f960844b8ca2bb80b5c42b0cc3c3a63547931db2",
-                "reference": "f960844b8ca2bb80b5c42b0cc3c3a63547931db2",
+                "url": "https://api.github.com/repos/PhpGt/GtCommand/zipball/5f08e08408d6885dab4da380c2e1dcaeea670251",
+                "reference": "5f08e08408d6885dab4da380c2e1dcaeea670251",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0",
-                "phpgt/build": "^v1.0",
-                "phpgt/cli": "^v1.3",
-                "phpgt/cron": "^v1.0",
-                "phpgt/database": "^v1.3",
-                "phpgt/server": "^v1.1"
+                "php": ">=8.2",
+                "phpgt/build": "^1.0",
+                "phpgt/cli": "^1.3",
+                "phpgt/cron": "^1.0",
+                "phpgt/database": "^1.6",
+                "phpgt/server": "^1.1"
             },
             "require-dev": {
-                "phpstan/phpstan": "^v1.8",
-                "phpunit/phpunit": "^v9.5"
+                "phpmd/phpmd": "^2.13",
+                "phpstan/phpstan": "^v1.10",
+                "squizlabs/php_codesniffer": "^3.7"
             },
             "bin": [
                 "bin/gt"
@@ -1454,7 +1465,7 @@
             "description": "Provides the `gt` command for automating WebEngine development.",
             "support": {
                 "issues": "https://github.com/PhpGt/GtCommand/issues",
-                "source": "https://github.com/PhpGt/GtCommand/tree/v1.0.1"
+                "source": "https://github.com/PhpGt/GtCommand/tree/v1.1.1"
             },
             "funding": [
                 {
@@ -1462,20 +1473,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-07T16:32:39+00:00"
+            "time": "2024-12-03T18:08:52+00:00"
         },
         {
             "name": "phpgt/http",
-            "version": "v1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/Http.git",
-                "reference": "8e25985f424a0bbcb25df15713b96d8d2b972533"
+                "reference": "db57d95b45ee5efe8a2ae498049747cbace6c64c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Http/zipball/8e25985f424a0bbcb25df15713b96d8d2b972533",
-                "reference": "8e25985f424a0bbcb25df15713b96d8d2b972533",
+                "url": "https://api.github.com/repos/PhpGt/Http/zipball/db57d95b45ee5efe8a2ae498049747cbace6c64c",
+                "reference": "db57d95b45ee5efe8a2ae498049747cbace6c64c",
                 "shasum": ""
             },
             "require": {
@@ -1496,14 +1507,14 @@
             "require-dev": {
                 "phpmd/phpmd": "^2.13",
                 "phpstan/phpstan": "^1.10",
-                "phpunit/phpunit": "^10.1",
+                "phpunit/phpunit": "10.1.*",
                 "squizlabs/php_codesniffer": "^3.7"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.3-dev",
-                    "dev-ci": "1.2.3-dev"
+                    "dev-master": "1.3.1-dev",
+                    "dev-222-redirect": "1.3.1-dev"
                 }
             },
             "autoload": {
@@ -1518,7 +1529,7 @@
             "description": "PSR-7 HTTP message implementation.",
             "support": {
                 "issues": "https://github.com/PhpGt/Http/issues",
-                "source": "https://github.com/PhpGt/Http/tree/v1.3.0"
+                "source": "https://github.com/PhpGt/Http/tree/v1.3.1"
             },
             "funding": [
                 {
@@ -1526,30 +1537,31 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-31T09:40:29+00:00"
+            "time": "2024-10-15T11:48:52+00:00"
         },
         {
             "name": "phpgt/input",
-            "version": "v1.2.3",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/Input.git",
-                "reference": "7e82009922c42531e57e45641072b7c416d726c3"
+                "reference": "f5096b5e2d3d2d8ead383138acf122681a07afe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Input/zipball/7e82009922c42531e57e45641072b7c416d726c3",
-                "reference": "7e82009922c42531e57e45641072b7c416d726c3",
+                "url": "https://api.github.com/repos/PhpGt/Input/zipball/f5096b5e2d3d2d8ead383138acf122681a07afe8",
+                "reference": "f5096b5e2d3d2d8ead383138acf122681a07afe8",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
-                "phpgt/http": "^v1.1"
+                "phpgt/http": "^1.1",
+                "phpgt/json": "^1.2"
             },
             "require-dev": {
                 "phpmd/phpmd": "^2.13",
-                "phpstan/phpstan": "^v1.10",
-                "phpunit/phpunit": "^10.1",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^10.5",
                 "squizlabs/php_codesniffer": "^3.7"
             },
             "type": "library",
@@ -1565,7 +1577,7 @@
             "description": "Encapsulated user input.",
             "support": {
                 "issues": "https://github.com/PhpGt/Input/issues",
-                "source": "https://github.com/PhpGt/Input/tree/v1.2.3"
+                "source": "https://github.com/PhpGt/Input/tree/v1.3.0"
             },
             "funding": [
                 {
@@ -1573,7 +1585,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-02T17:16:00+00:00"
+            "time": "2025-02-13T14:46:52+00:00"
         },
         {
             "name": "phpgt/json",
@@ -1681,16 +1693,16 @@
         },
         {
             "name": "phpgt/promise",
-            "version": "v2.2.3",
+            "version": "v2.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PhpGt/Promise.git",
-                "reference": "907b3a450f3252077f80b50289f73ab930ca2cdc"
+                "url": "https://github.com/phpgt/Promise.git",
+                "reference": "ac75701f90421d922d689038ad3f04028d527372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Promise/zipball/907b3a450f3252077f80b50289f73ab930ca2cdc",
-                "reference": "907b3a450f3252077f80b50289f73ab930ca2cdc",
+                "url": "https://api.github.com/repos/phpgt/Promise/zipball/ac75701f90421d922d689038ad3f04028d527372",
+                "reference": "ac75701f90421d922d689038ad3f04028d527372",
                 "shasum": ""
             },
             "require": {
@@ -1725,8 +1737,8 @@
                 "then"
             ],
             "support": {
-                "issues": "https://github.com/PhpGt/Promise/issues",
-                "source": "https://github.com/PhpGt/Promise/tree/v2.2.3"
+                "issues": "https://github.com/phpgt/Promise/issues",
+                "source": "https://github.com/phpgt/Promise/tree/v2.2.4"
             },
             "funding": [
                 {
@@ -1734,7 +1746,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-01T10:59:01+00:00"
+            "time": "2024-05-05T14:21:03+00:00"
         },
         {
             "name": "phpgt/propfunc",
@@ -1790,24 +1802,24 @@
         },
         {
             "name": "phpgt/protectedglobal",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PhpGt/ProtectedGlobal.git",
-                "reference": "6e8c0b1729a52723e29e551be38c390a0178bfd4"
+                "url": "https://github.com/phpgt/ProtectedGlobal.git",
+                "reference": "b8ac7187e1e3047877a68b21416fa545812ed96a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/ProtectedGlobal/zipball/6e8c0b1729a52723e29e551be38c390a0178bfd4",
-                "reference": "6e8c0b1729a52723e29e551be38c390a0178bfd4",
+                "url": "https://api.github.com/repos/phpgt/ProtectedGlobal/zipball/b8ac7187e1e3047877a68b21416fa545812ed96a",
+                "reference": "b8ac7187e1e3047877a68b21416fa545812ed96a",
                 "shasum": ""
             },
             "require": {
                 "php": ">7.4"
             },
             "require-dev": {
-                "phpstan/phpstan": "^v1.8",
-                "phpunit/phpunit": "^v9.5"
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^10.1"
             },
             "type": "library",
             "autoload": {
@@ -1821,10 +1833,10 @@
             ],
             "description": "Protect against accidental use of superglobals.",
             "support": {
-                "issues": "https://github.com/PhpGt/ProtectedGlobal/issues",
-                "source": "https://github.com/PhpGt/ProtectedGlobal/tree/v1.1.1"
+                "issues": "https://github.com/phpgt/ProtectedGlobal/issues",
+                "source": "https://github.com/phpgt/ProtectedGlobal/tree/v1.1.2"
             },
-            "time": "2022-09-25T12:04:38+00:00"
+            "time": "2025-03-09T13:53:23+00:00"
         },
         {
             "name": "phpgt/routing",
@@ -1899,25 +1911,26 @@
         },
         {
             "name": "phpgt/server",
-            "version": "v1.1.4",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/Server.git",
-                "reference": "6eec4cfcb0802fa409deb10713651ee842a228de"
+                "reference": "6e959fcf874d3363ddbe708f25f907b42dcb17bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/Server/zipball/6eec4cfcb0802fa409deb10713651ee842a228de",
-                "reference": "6eec4cfcb0802fa409deb10713651ee842a228de",
+                "url": "https://api.github.com/repos/PhpGt/Server/zipball/6e959fcf874d3363ddbe708f25f907b42dcb17bc",
+                "reference": "6e959fcf874d3363ddbe708f25f907b42dcb17bc",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
-                "phpgt/cli": "*"
+                "php": ">=8.0",
+                "phpgt/cli": "^1.3.5"
             },
             "require-dev": {
-                "phpstan/phpstan": "v1.8.0",
-                "phpunit/phpunit": "v9.5.21"
+                "phpmd/phpmd": "^2.13",
+                "phpstan/phpstan": "v1.10",
+                "squizlabs/php_codesniffer": "^3.7"
             },
             "bin": [
                 "bin/serve"
@@ -1932,7 +1945,7 @@
             "description": "Development HTTP server.",
             "support": {
                 "issues": "https://github.com/PhpGt/Server/issues",
-                "source": "https://github.com/PhpGt/Server/tree/v1.1.4"
+                "source": "https://github.com/PhpGt/Server/tree/v1.1.5"
             },
             "funding": [
                 {
@@ -1940,7 +1953,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-24T22:38:50+00:00"
+            "time": "2024-05-09T15:21:06+00:00"
         },
         {
             "name": "phpgt/servicecontainer",
@@ -2208,13 +2221,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PhpGt/WebEngine.git",
-                "reference": "f7937cc01dfcf26baf529d75fc9abedc6f0a7d66"
+                "url": "https://github.com/phpgt/WebEngine.git",
+                "reference": "de88c72dc352f741f5146c7ffd9d941cddf044e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/WebEngine/zipball/f7937cc01dfcf26baf529d75fc9abedc6f0a7d66",
-                "reference": "f7937cc01dfcf26baf529d75fc9abedc6f0a7d66",
+                "url": "https://api.github.com/repos/phpgt/WebEngine/zipball/de88c72dc352f741f5146c7ffd9d941cddf044e7",
+                "reference": "de88c72dc352f741f5146c7ffd9d941cddf044e7",
                 "shasum": ""
             },
             "require": {
@@ -2267,8 +2280,8 @@
                 "webservice"
             ],
             "support": {
-                "issues": "https://github.com/PhpGt/WebEngine/issues",
-                "source": "https://github.com/PhpGt/WebEngine/tree/master"
+                "issues": "https://github.com/phpgt/WebEngine/issues",
+                "source": "https://github.com/phpgt/WebEngine/tree/master"
             },
             "funding": [
                 {
@@ -2276,7 +2289,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-18T10:58:51+00:00"
+            "time": "2025-03-07T13:39:50+00:00"
         },
         {
             "name": "psr/container",
@@ -2549,16 +2562,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.4.0",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf"
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/7c3aff79d10325257a001fcf92d991f24fc967cf",
-                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
                 "shasum": ""
             },
             "require": {
@@ -2566,12 +2579,12 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "3.4-dev"
-                },
                 "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
+                "branch-alias": {
+                    "dev-main": "3.5-dev"
                 }
             },
             "autoload": {
@@ -2596,7 +2609,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.4.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
             },
             "funding": [
                 {
@@ -2612,30 +2625,30 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-23T14:45:45+00:00"
+            "time": "2024-09-25T14:20:29+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.29.0",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "87b68208d5c1188808dd7839ee1e6c8ec3b02f1b"
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/87b68208d5c1188808dd7839ee1e6c8ec3b02f1b",
-                "reference": "87b68208d5c1188808dd7839ee1e6c8ec3b02f1b",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -2676,7 +2689,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.29.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
             },
             "funding": [
                 {
@@ -2692,7 +2705,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-29T20:11:03+00:00"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -2923,6 +2936,6 @@
         "ext-curl": "*",
         "ext-mbstring": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }

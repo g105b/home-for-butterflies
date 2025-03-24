@@ -96,6 +96,12 @@ body {
 				}
 			}
 
+			iframe {
+				width: 100%;
+				aspect-ratio: 16/9;
+				margin: 2rem auto;
+			}
+
 			@media(min-width: $break-small) {
 				>h1, >h2, >h3, >h4, >h5, >h6 {
 					text-align: left;

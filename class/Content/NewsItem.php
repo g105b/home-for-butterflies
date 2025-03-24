@@ -94,8 +94,19 @@ class NewsItem {
 		$environment->addExtension(new CommonMarkCoreExtension());
 		$environment->addExtension(new AttributesExtension());
 
+		$youtubeHtml = '<iframe src="https://www.youtube-nocookie.com/embed/YOUTUBE_CODE" title="Home For Butterflies video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+
+		preg_match_all("#https?://(?:youtube\.com|youtu\.be)/(?:video/|watch\?v=)?(?P<CODE>[^/\n?]+)(?:/edit|\?si=.+)?#", $markdown, $matches);
+		if(isset($matches[0]) && !empty($matches[0])) {
+			foreach($matches[0] as $i => $originalText) {
+				$youtubeCode = $matches[1][$i];
+				$youtubeHtmlInjected = str_replace("YOUTUBE_CODE", $youtubeCode, $youtubeHtml);
+				$markdown = str_replace($originalText, "\n\n$youtubeHtmlInjected\n\n", $markdown);
+			}
+		}
+
 		$converter = new MarkdownConverter($environment);
-		return $converter->convertToHtml($markdown);
+		return $converter->convert($markdown);
 	}
 
 	/** @return array<string> List of public paths */
