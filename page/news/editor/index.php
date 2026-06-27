@@ -1,5 +1,5 @@
 <?php
-use Gt\DomTemplate\Binder;
+use GT\DomTemplate\Binder;
 use Gt\Input\Input;
 use H4B\Content\NewsFactory;
 use H4B\Content\NewsList;

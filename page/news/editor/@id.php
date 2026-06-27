@@ -1,7 +1,7 @@
 <?php
 use Gt\Dom\HTMLDocument;
 use Gt\Dom\Element;
-use Gt\DomTemplate\Binder;
+use GT\DomTemplate\Binder;
 use Gt\Http\Uri;
 use Gt\Input\Input;
 use Gt\Routing\Path\DynamicPath;

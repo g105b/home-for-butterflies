@@ -1,6 +1,7 @@
-/vendor
+/vendor/
 .sass-cache
-/www/asset
+/www/asset/
 /www/style.css*
 /.jwt.json
 /asset/photo/thumb-*
+/node_modules/
