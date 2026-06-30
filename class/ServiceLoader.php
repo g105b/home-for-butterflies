@@ -1,7 +1,7 @@
 <?php
 namespace H4B;
 
-use GT\WebEngine\Service\DefaultServiceLoader;
+use Gt\WebEngine\Middleware\DefaultServiceLoader;
 use H4B\Content\ContentRepository;
 use H4B\Content\NewsList;
 
