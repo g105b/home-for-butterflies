@@ -1,5 +1,5 @@
 <?php
-use GT\DomTemplate\Binder;
+use Gt\DomTemplate\Binder;
 use H4B\Content\NewsList;
 
 function go(NewsList $newsList, Binder $binder):void {
